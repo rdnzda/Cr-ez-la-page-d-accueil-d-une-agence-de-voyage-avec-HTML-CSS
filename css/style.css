@@ -408,6 +408,9 @@ input {
 
 .frame a {
     width: 25%;
+    border-radius: 20px;
+    box-shadow: 0px 3px 15px 0px rgba(0, 0, 0, 0.1);
+
 }
 
 .frame a img {
@@ -447,6 +450,7 @@ footer {
 .footer-content a {
     font-size: 16px;
     font-weight: 400;
+    width: fit-content;
 }
 
 /* Le code ci-dessous correspond à la version responsive uniquement */
