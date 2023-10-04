@@ -87,12 +87,10 @@ header {
     display: flex;
     flex-direction: row;
     justify-content: space-between;
-    height: 79px;
 }
 
 header img {
     width: 61.09px;
-    height: 19px;
     margin-top: auto;
     margin-bottom: auto;
 }
@@ -151,7 +149,6 @@ nav ul li a:hover{
 
 .headline {
     width: fit-content;
-    height: 53px;
     gap: 8px;
     display: flex;
     flex-direction: column;
@@ -163,8 +160,6 @@ nav ul li a:hover{
 }
 
 .search-bar {
-    width: 377px;
-    height: 49px;
     display: flex;
     flex-direction: row;
     padding: 0px;
@@ -184,13 +179,11 @@ nav ul li a:hover{
 }
 
 .icone i {
-    height: 18px;
     width: 14px;
     padding: 0px;
 }
 
 input {
-    height: 49px;
     width: 195px;
     font-size: 18px;
     font-weight: 700;
@@ -307,6 +300,7 @@ input {
     display: flex;
     flex-direction: row;
     justify-content: space-between;
+    flex-wrap: wrap;
 }
 
 .hebergements-cards a {
