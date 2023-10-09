@@ -20,7 +20,7 @@
             <img src="images/logo/Booki.png" alt="logo">
             <nav>
                 <ul>
-                    <li>
+                    <li id="act">
                         <a href="#hebergements-populaires" id="hbg">Hébergements</a>
                     </li>
                     <li>
@@ -35,38 +35,43 @@
                     <h1>Trouvez votre hébergement pour des vacances de rêve</h1>
                     <p>En plein centre-ville ou en pleine nature</p>
                 </section>
-                <section class="search-bar">
+                <div class="search-bar">
                     <div class="icone">
                         <i class="fa-solid fa-location-dot" style="color: #000000;"></i>
                     </div>
                     <input type="text" value="Marseille, France">
-                    <button>Rechercher</button>
-                </section>
+                    <button id="rechercher">Rechercher</button>
+                    <button id="loupe">
+                        <i class="fa-solid fa-magnifying-glass" style="color: #ffffff;"></i>
+                    </button>
+                </div>
                 <section class="filter-bar">
                     <h2>Filtres</h2>
-                    <a href="#">
-                        <i class="fa-solid fa-money-bill-wave" style="color: #0065fc;"></i>
-                        Économique
-                    </a>
-                    <a href="#">
-                        <i class="fa-solid fa-person" style="color: #0065fc;"></i>
-                        Familial
-                    </a>
-                    <a href="#">
-                        <i class="fa-solid fa-heart" style="color: #0065fc;"></i>
-                        Romantique
-                    </a>
-                    <a href="#">
-                        <i class="fa-solid fa-fire" style="color: #0065fc;"></i>
-                        Nos pépites
-                    </a>
+                    <div class="filter">
+                        <a href="#">
+                            <i class="fa-solid fa-money-bill-wave" style="color: #0065fc;"></i>
+                            Économique
+                        </a>
+                        <a href="#">
+                            <i class="fa-solid fa-person" style="color: #0065fc;"></i>
+                            Familial
+                        </a>
+                        <a href="#">
+                            <i class="fa-solid fa-heart" style="color: #0065fc;"></i>
+                            Romantique
+                        </a>
+                        <a href="#">
+                            <i class="fa-solid fa-fire" style="color: #0065fc;"></i>
+                            Nos pépites
+                        </a>
+                    </div>
                 </section>
-                <section class="info-bar">
+                <div class="info-bar">
                     <div>
                         <i class="fa-solid fa-info fa-xs" style="color: #0065fc;"></i>
                     </div>
                     <p>Plus de 500 logements sont disponibles dans cette ville</p>
-                </section>
+                </div>
             </div>
             <div class="hebergements-and-populaires" id="hebergements-populaires">
                 <section class="hebergements">
