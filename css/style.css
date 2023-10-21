@@ -22,8 +22,7 @@ body {
 }
 
 .main-container {
-    width: 100%;
-
+    width: 1440px;
     padding: 0px 50px;
     box-sizing: border-box;
 }
@@ -72,7 +71,7 @@ a {
     color: #0065fc;
 }
 
-.loupe-icone {
+#loupe i {
     color: #ffffff;
 }
 
@@ -542,7 +541,7 @@ footer {
         display: flex;
         align-items: center;
         justify-content: center;
-        border-bottom: 1px solid rgba(242, 242, 242, 1);
+        border-bottom: 1px solid white;
     }
 
     header nav ul li a {
@@ -550,6 +549,10 @@ footer {
         padding-top: 0px;
         padding-bottom: 15px;
         color: black;
+    }
+    
+    #act {
+        border-bottom: 1px solid #0065FC;
     }
 
     nav ul li a:hover{
